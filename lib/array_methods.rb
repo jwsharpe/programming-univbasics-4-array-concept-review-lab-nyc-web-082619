@@ -8,7 +8,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  max = Math.min
+  max = 0
   array.length.times do [i]
     if(array[i]>max)
       max = array[i]
@@ -17,5 +17,5 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  min = Math.max
+  min = 2**63
 end
