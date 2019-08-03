@@ -18,5 +18,9 @@ end
 
 def find_min_value(array)
   min = 2**31
-  
+  array.length.times do [i]
+    if(array[i]<min)
+      min = array[i]
+    end
+  end
 end
