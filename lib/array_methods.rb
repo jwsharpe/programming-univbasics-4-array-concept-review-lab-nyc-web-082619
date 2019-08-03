@@ -17,5 +17,6 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  min = 2**63
+  min = 2**31
+  
 end
